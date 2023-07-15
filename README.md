@@ -1,9 +1,8 @@
 # Project_3_stroke_prediction
-Welcome to the project! This repository contains an application that predicts the stroke using a given dataset. The application utilizes a several algorithm and evaluates the model to make pickle file of best model that we will use in production.
+Welcome to the project! This repository contains an application that predicts the likelihood of stroke using a given dataset. The application utilizes several algorithms and evaluates them to select the best model, which is then saved as a pickle file for production use.
 
 # about data set info:
-According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths.
-This dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relavant information about the patient.
+According to the World Health Organization (WHO), stroke is the second leading cause of death globally, accounting for approximately 11% of total deaths. This dataset aims to predict whether a patient is likely to have a stroke based on various input parameters, including gender, age, presence of hypertension, heart disease, marriage status, work type, residence type, average glucose level, body mass index (BMI), smoking status, and stroke occurrence. Each row in the dataset provides relevant information about a patient.
 
 # The dataset includes the following features:
 
@@ -32,8 +31,7 @@ This dataset is used to predict whether a patient is likely to get stroke based 
 12) stroke: 1 if the patient had a stroke or 0 if not
     
 
-The independent variables are 'age', 'gender', 'bmi', 'hypertension', 'heart_disease','ever_married','work_type','Residence_type','avg_glucose_level',and 'smoking_status'. The dependent variable is 'stroke'. The prediction of charges depends on the independent variables, and each independent variable directly impacts the charges.
-
+The independent variables considered for predicting stroke are 'age', 'gender', 'BMI', 'hypertension', 'heart_disease', 'ever_married', 'work_type', 'residence_type', 'avg_glucose_level', and 'smoking_status'. The dependent variable is 'stroke'. The prediction of stroke occurrence depends on these independent variables, and each variable directly impacts the likelihood of stroke.
 
 # libraries and tools
 The code is written in Python and utilizes the following libraries and tools:
@@ -42,7 +40,7 @@ numpy
 
 pandas
 
-sklearn
+scikit-learn (sklearn)
 
 matplotlib
 
@@ -62,6 +60,8 @@ To run the project, follow these steps:
 
 2.Copy the URL displayed in the command prompt and paste it into your web browser. This will open the frontend of the application.
 
-3.Enter your information according to the parameters provided and retrieve the price of your insurance.
+3.Enter your information according to the provided parameters and retrieve the predicted likelihood of stroke.
 
 Enjoy using the application!
+
+Please let me know if you have any further questions or if there's anything else I can assist you with.
