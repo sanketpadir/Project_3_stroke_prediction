@@ -1,7 +1,7 @@
 # Project_3_stroke_prediction
 Welcome to the project! This repository contains an application that predicts the likelihood of stroke using a given dataset. The application utilizes several algorithms and evaluates them to select the best model, which is then saved as a pickle file for production use.
 
-# about data set info:
+# About Data set info:
 According to the World Health Organization (WHO), stroke is the second leading cause of death globally, accounting for approximately 11% of total deaths. This dataset aims to predict whether a patient is likely to have a stroke based on various input parameters, including gender, age, presence of hypertension, heart disease, marriage status, work type, residence type, average glucose level, body mass index (BMI), smoking status, and stroke occurrence. Each row in the dataset provides relevant information about a patient.
 
 # The dataset includes the following features:
